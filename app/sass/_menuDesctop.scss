@@ -1,0 +1,92 @@
+._menu{
+
+    display:block;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: blueviolet;
+
+    li{
+        display: inline-block;
+        
+        position: relative;
+        z-index:100;
+
+        :first-child{margin-left:0;}
+
+        a{
+            font-weight:600;
+            text-decoration:none;
+            font-size: 1em;
+            padding:11px;
+            display:block;
+            color:#ffffff;
+            -webkit-transition: all 0.2s ease-in-out 0s;
+           -moz-transition: all 0.2s ease-in-out 0s;
+           -o-transition: all 0.2s ease-in-out 0s;
+           -ms-transition: all 0.2s ease-in-out 0s;
+           transition: all 0.2s ease-in-out 0s;
+        }
+
+        a:hover{
+            background:#9CA3DA;
+        }
+
+        a.CallMe{
+             color:#3e4156;
+        }
+
+        i.fa-phone{
+            transform: rotate(160deg);
+        }
+    }
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    ._menu{
+        ul {top:37px;}
+
+        li{
+            a{
+                font-size:12px;
+                padding:8px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 767px) {
+
+    ._menu{
+        display:none;
+
+        ul{top:4em;}
+
+        li{
+            display:block;
+            margin:0;
+
+            a{
+                background:#ffffff;
+                color:#797979;
+                border-top:1px solid #e0e0e0;
+                border-left:3px solid #ffffff;
+            }
+
+            a:hover{
+                background:#f0f0f0;
+                color:#797979;
+                border-left:3px solid #9CA3DA;
+            }  
+        }
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}
