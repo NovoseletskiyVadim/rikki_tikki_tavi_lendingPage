@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var touch 	= $('#touch-menu');
-	var menu 	= $('.menu');
+	var menu 	= $('.mobileMenu');
 
 
 	$(touch).on('click', function(e) {
@@ -11,10 +11,10 @@ $(document).ready(function(){
 
 
 	
-	$('a','.menu').click(function() {
+	$('a','.mobileMenu').click(function() {
 		var w = $(window).width();
 		if(w < 790) {
-			$('.menu').toggle(0);
+			$('.mobileMenu').toggle(0);
 		}
 	});
 		

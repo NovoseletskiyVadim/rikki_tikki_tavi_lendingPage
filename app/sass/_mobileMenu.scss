@@ -18,8 +18,11 @@
     }
 };
 
+
+
 @media (max-width: 767px) {
 
+    .menu{display:none;}
 
     .forMobile{
         position: fixed;
@@ -28,7 +31,7 @@
         display: block;
         margin-bottom: 1em;
         width: 100%;
-        height: 100%;
+        // height: 100%;
 
         border:1px solid yellow;            
         border-left: 2px solid yellow;
@@ -41,7 +44,7 @@
     .mobile-menu{display:block;}
 
     .mobileMenu{
-        
+        display: none;
         margin-top: 0em;
         padding-left: 0em;
        
@@ -88,6 +91,8 @@
         i.fa-phone{
             transform: rotate(160deg);
         };
+        
+
     };
     
 };
