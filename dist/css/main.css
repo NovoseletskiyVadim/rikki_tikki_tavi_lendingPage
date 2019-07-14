@@ -692,52 +692,49 @@ article, aside, figure, footer, header, hgroup, nav, section {
   background: #999; }
 
 /** responsive styles **/
-@media screen and (max-width: 1920px) {
-  .slaider .slides .slide img {
-    height: 595px; }
-  .slider-arrow--right {
-    top: 45%;
-    right: 30px; }
-  .slider-arrow--left {
-    top: 45%;
-    left: 30px; } }
-
-@media screen and (max-width: 1050px) {
-  .slaider .slides .slide img {
-    height: 595px; }
+@media screen and (min-width: 280px) and (max-width: 479px) {
+  .slider {
+    margin-top: 2.5em; }
   .slider-arrow {
-    font-size: 1.8em;
-    padding: 15px; }
+    font-size: 1em; }
   .slider-arrow--right {
-    top: 20%;
-    right: 30px; }
+    top: 10%;
+    right: 20px; }
   .slider-arrow--left {
-    top: 20%;
-    left: 30px; } }
-
-@media screen and (max-width: 650px) {
-  .slider {
-    margin-top: 2.5em; }
+    top: 10%;
+    left: 20px; }
   .slider-nav {
-    top: 185px; } }
+    top: 10px; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 480px) and (max-width: 629px) {
   .slider {
     margin-top: 2.5em; }
-    .slider .slides .slide figure figcaption {
-      font-size: 1em;
-      color: red; }
-    .slider .slides .slide figure img {
-      height: 200px;
-      width: 100%; }
   .slider-arrow--right {
     top: 15%;
     right: 30px; }
   .slider-arrow--left {
     top: 15%;
     left: 30px; }
+  .slider-arrow {
+    font-size: 1.8em;
+    padding: 15px; }
   .slider-nav {
-    top: 155px; } }
+    top: 10px; } }
+
+@media screen and (min-width: 630px) and (max-width: 767px) {
+  .slider {
+    margin-top: 2.5em; }
+  .slider-arrow--right {
+    top: 15%;
+    right: 30px; }
+  .slider-arrow--left {
+    top: 15%;
+    left: 30px; }
+  .slider-arrow {
+    font-size: 1.8em;
+    padding: 15px; }
+  .slider-nav {
+    top: 10px; } }
 
 @media only screen and (min-width: 280px) and (max-width: 479px) {
   .nameForMobile {
