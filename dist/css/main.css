@@ -637,26 +637,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
       width: 100%;
       float: left;
       clear: none; }
-      .slider .slides .slide figure {
-        display: block;
-        position: relative;
-        text-align: center; }
-        .slider .slides .slide figure img {
-          width: 100%;
-          overflow: hidden; }
-        .slider .slides .slide figure figcaption {
-          position: absolute;
-          right: 20%;
-          font-size: 1.1em;
-          font-weight: bold;
-          padding: 8px 14px;
-          color: #464646;
-          background: rgba(255, 255, 255, 0.8); }
-          .slider .slides .slide figure figcaption a {
-            color: #5a7fbc;
-            text-decoration: none; }
-          .slider .slides .slide figure figcaption a:hover {
-            text-decoration: underline; }
+      .slider .slides .slide img {
+        width: 100%;
+        overflow: hidden; }
 
 .slider-arrow {
   position: absolute;
@@ -688,7 +671,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 .slider-nav {
   position: absolute;
-  bottom: 0px; }
+  top: 680px; }
 
 .slider-nav__item {
   width: 12px;
@@ -709,19 +692,34 @@ article, aside, figure, footer, header, hgroup, nav, section {
   background: #999; }
 
 /** responsive styles **/
+@media screen and (max-width: 1920px) {
+  .slaider .slides .slide img {
+    height: 595px; }
+  .slider-arrow--right {
+    top: 45%;
+    right: 30px; }
+  .slider-arrow--left {
+    top: 45%;
+    left: 30px; } }
+
 @media screen and (max-width: 1050px) {
+  .slaider .slides .slide img {
+    height: 595px; }
   .slider-arrow {
     font-size: 1.8em;
-    padding: 15px; } }
+    padding: 15px; }
+  .slider-arrow--right {
+    top: 20%;
+    right: 30px; }
+  .slider-arrow--left {
+    top: 20%;
+    left: 30px; } }
 
 @media screen and (max-width: 650px) {
   .slider {
     margin-top: 2.5em; }
-    .slider .slides .slide figure figcaption {
-      font-size: 1em;
-      color: red; }
   .slider-nav {
-    top: 180px; } }
+    top: 185px; } }
 
 @media screen and (max-width: 450px) {
   .slider {
@@ -732,6 +730,12 @@ article, aside, figure, footer, header, hgroup, nav, section {
     .slider .slides .slide figure img {
       height: 200px;
       width: 100%; }
+  .slider-arrow--right {
+    top: 15%;
+    right: 30px; }
+  .slider-arrow--left {
+    top: 15%;
+    left: 30px; }
   .slider-nav {
     bottom: 0; } }
 
