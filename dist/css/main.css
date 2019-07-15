@@ -756,10 +756,10 @@ article, aside, figure, footer, header, hgroup, nav, section {
   .slider-arrow {
     font-size: 1em; }
   .slider-arrow--right {
-    top: 10%;
+    top: 30%;
     right: 20px; }
   .slider-arrow--left {
-    top: 10%;
+    top: 30%;
     left: 20px; }
   .slider-nav {
     top: 10px; } }
@@ -769,10 +769,10 @@ article, aside, figure, footer, header, hgroup, nav, section {
     margin-top: 2.5em;
     height: auto; }
   .slider-arrow--right {
-    top: 15%;
+    top: 35%;
     right: 30px; }
   .slider-arrow--left {
-    top: 15%;
+    top: 35%;
     left: 30px; }
   .slider-arrow {
     font-size: 1.8em;
@@ -785,10 +785,10 @@ article, aside, figure, footer, header, hgroup, nav, section {
     margin-top: 2.5em;
     height: auto; }
   .slider-arrow--right {
-    top: 15%;
+    top: 35%;
     right: 30px; }
   .slider-arrow--left {
-    top: 15%;
+    top: 35%;
     left: 30px; }
   .slider-arrow {
     font-size: 1.8em;
