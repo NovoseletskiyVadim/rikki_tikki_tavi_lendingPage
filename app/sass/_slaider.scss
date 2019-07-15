@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700');
+// @import url('http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700');
 .slider {
 	position: relative;
 	width: 100%;
@@ -130,38 +130,59 @@
   
 }
 
-
-
-// @media screen and (max-width: 1050px) {
-//   .slaider .slides .slide img{
-//     height: 595px;
-//   }
-
-//   .slider-arrow { font-size: 1.8em; padding: 15px; }
-//   .slider-arrow--right { top: 20%; right: 30px; }
-//   .slider-arrow--left { top: 20%; left: 30px; }
-//   .slider-arrow { font-size: 1.8em; padding: 15px; }
-//   .slider-nav {top: 155px;}
-
-// } 
-
-
-// @media screen and (max-width: 1920px){
-
-//   .slaider .slides .slide img{
-//     height: 595px;
-//   }
-//   .slider-arrow--right { top: 45%; right: 30px; }
-//   .slider-arrow--left { top: 45%; left: 30px; }
-
-// }
-
-
-
+@media screen and (min-width: 768px) and (max-width : 849px) {
   
-
+  .slider-arrow--right { top: 25%; right: 30px; }
+  .slider-arrow--left { top: 25%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
   
+}
 
+@media screen and (min-width: 850px) and (max-width : 991px){
+
+  .slider-arrow--right { top: 35%; right: 30px; }
+  .slider-arrow--left { top: 35%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
+}
+
+@media screen and (min-width: 991px) and (max-width : 1023px){
+
+  .slider-arrow--right { top: 45%; right: 30px; }
+  .slider-arrow--left { top: 45%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width : 1198px){
+
+  .slider-arrow--right { top: 50%; right: 30px; }
+  .slider-arrow--left { top: 50%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
+
+}
+
+@media screen and (min-width: 1199px) and (max-width : 1379px){
+
+  .slider-arrow--right { top: 50%; right: 30px; }
+  .slider-arrow--left { top: 50%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
+
+}
+
+@media screen and (min-width: 1378px) and (max-width : 1929px){
+
+  .slider-arrow--right { top: 50%; right: 30px; }
+  .slider-arrow--left { top: 50%; left: 30px; }
+  .slider-arrow { font-size: 1.8em; padding: 15px; }
+  .slider-nav {top: 10px;}
+
+}
 
 
 
