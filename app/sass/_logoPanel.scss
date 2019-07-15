@@ -23,7 +23,6 @@
 
     i.fa-facebook-f{
         line-height: 250%;
-        // margin-top: 1em;      
     };
 
     i.fa-instagram{
@@ -55,7 +54,7 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
     
-       
+    .logoPanel img{width: 80%;}
 };
 
 @media screen and (min-width: 850px) and (max-width:991px) {
@@ -72,6 +71,8 @@
     .container .cols.col-10{width: 83.33333333333333%;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
+
+    .logoPanel img{width: 70%;}
   
 };
 
@@ -90,6 +91,7 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
+    .logoPanel img{width: 70%;}
     
 
 };
@@ -109,6 +111,7 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
   
+    .logoPanel img{width: 60%;}
     
   
 };
@@ -128,10 +131,8 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    // .mainImg {height: 100vh; width: 100vh;}
-
-    // TODO: пересмотреть нижний отступ банера 
-	// TODO: пересмотреть размер фрейма на google maps
+    .logoPanel img{width: 50%;}
+    
 };
 
 
@@ -150,6 +151,7 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
+    .logoPanel img{width: 50%;}
 
 };
 
