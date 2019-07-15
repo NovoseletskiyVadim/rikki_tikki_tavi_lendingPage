@@ -103,7 +103,7 @@
 @media screen and (min-width : 280px) and (max-width : 479px) {
 
 
-  .slider {margin-top: 2.5em;}
+  .slider {margin-top: 2.5em; height: auto;}
   .slider-arrow {font-size: 1em;}
   .slider-arrow--right { top: 10%; right: 20px; }
   .slider-arrow--left { top: 10%; left: 20px; }
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 480px) and (max-width : 629px) {
   
-  .slider {margin-top: 2.5em}
+  .slider {margin-top: 2.5em; height: auto;}
   .slider-arrow--right { top: 15%; right: 30px; }
   .slider-arrow--left { top: 15%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -122,7 +122,7 @@
 
 @media screen and (min-width: 630px) and (max-width : 767px) {
   
-  .slider {margin-top: 2.5em}
+  .slider {margin-top: 2.5em; height: auto;}
   .slider-arrow--right { top: 15%; right: 30px; }
   .slider-arrow--left { top: 15%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
