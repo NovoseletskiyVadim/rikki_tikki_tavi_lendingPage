@@ -1270,6 +1270,374 @@ article, aside, figure, footer, header, hgroup, nav, section {
   .container .cols.col-12 {
     width: 100%; } }
 
+.metodiki {
+  line-height: 2.5em;
+  color: #5c5c5c; }
+  .metodiki img {
+    float: left;
+    height: 300px;
+    border-radius: 5%;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em; }
+  .metodiki p {
+    color: #5c5c5c;
+    text-indent: 1em;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
+
+.icons-metodiki {
+  margin-top: 4em; }
+  .icons-metodiki p {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+    text-indent: 0;
+    font-weight: bold; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+    .icons-metodiki p .iconBook {
+      color: #ed9a00; }
+    .icons-metodiki p .iconClass1 {
+      color: blue; }
+    .icons-metodiki p .iconClass2 {
+      color: green; }
+  .icons-metodiki button {
+    margin-top: 2em;
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 35%;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ed9a00;
+    color: #fff; }
+
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  .metodiki p {
+    font-size: 1.2em; }
+  .icons-metodiki p {
+    width: 60%;
+    font-size: 1.5em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+    .icons-metodiki p .iconClass1 {
+      margin-top: 0.5em; }
+    .icons-metodiki p .iconClass2 {
+      margin-top: 0.5em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 45%;
+    font-size: 1.3em; } }
+
+@media only screen and (min-width: 480px) and (max-width: 629px) {
+  .metodiki p {
+    font-size: 1.2em; }
+  .icons-metodiki p {
+    width: 60%;
+    font-size: 1.5em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+    .icons-metodiki p .iconClass1 {
+      margin-top: 0.5em; }
+    .icons-metodiki p .iconClass2 {
+      margin-top: 0.5em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 45%;
+    font-size: 1.3em; } }
+
+@media only screen and (min-width: 630px) and (max-width: 767px) {
+  .metodiki p {
+    font-size: 1.4em; }
+  .icons-metodiki p {
+    width: 60%;
+    font-size: 1.5em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+    .icons-metodiki p .iconClass1 {
+      margin-top: 0.5em; }
+    .icons-metodiki p .iconClass2 {
+      margin-top: 0.5em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 40%;
+    font-size: 1.3em; } }
+
+@media only screen and (min-width: 767px) and (max-width: 849px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.3em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 60%;
+    font-size: 1.2em; } }
+
+@media screen and (min-width: 850px) and (max-width: 991px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.3em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 60%;
+    font-size: 1.2em; } }
+
+@media screen and (min-width: 991px) and (max-width: 1023px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.4em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 1.2em; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.2em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 1.2em; } }
+
+@media only screen and (min-width: 1199px) and (max-width: 1379px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.3em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 1.2em; } }
+
+@media only screen and (min-width: 1379px) and (max-width: 1920px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; } }
+
+@media only screen and (min-width: 1920px) and (max-width: 2160px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%; }
+  .container .cols.col-2 {
+    width: 16.66666666666667%; }
+  .container .cols.col-3 {
+    width: 25%; }
+  .container .cols.col-4 {
+    width: 33.33333333333333%; }
+  .container .cols.col-5 {
+    width: 41.66666666666667%; }
+  .container .cols.col-6 {
+    width: 50%; }
+  .container .cols.col-7 {
+    width: 58.33333333333333%; }
+  .container .cols.col-8 {
+    width: 66.66666666666667%; }
+  .container .cols.col-9 {
+    width: 75%; }
+  .container .cols.col-10 {
+    width: 83.33333333333333%; }
+  .container .cols.col-11 {
+    width: 91.66666666666667%; }
+  .container .cols.col-12 {
+    width: 100%; } }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
