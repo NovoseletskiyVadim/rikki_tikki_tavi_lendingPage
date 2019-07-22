@@ -555,6 +555,36 @@ article, aside, figure, footer, header, hgroup, nav, section {
     color: #ffffff;
     text-decoration: none; }
 
+@media (max-height: 280px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 200px; } }
+
+@media (max-height: 330px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 250px; } }
+
+@media (max-height: 380px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 310px; } }
+
+@media (max-height: 420px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 350px; } }
+
+@media (max-height: 470px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 400px; } }
+
+@media (max-height: 520px) {
+  .mobileMenu {
+    overflow: scroll;
+    height: 460px; } }
+
 @media (max-width: 767px) {
   .menu {
     display: none; }
@@ -604,36 +634,6 @@ article, aside, figure, footer, header, hgroup, nav, section {
       color: #fd7e14; }
     .mobileMenu i.fa-phone {
       transform: rotate(160deg); } }
-
-@media (max-height: 520px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 460px; } }
-
-@media (max-height: 470px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 400px; } }
-
-@media (max-height: 420px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 350px; } }
-
-@media (max-height: 380px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 310px; } }
-
-@media (max-height: 330px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 250px; } }
-
-@media (max-height: 280px) {
-  .mobileMenu {
-    overflow: scroll;
-    height: 200px; } }
 
 .mainBlock {
   height: 100vh; }
