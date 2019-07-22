@@ -6,8 +6,9 @@
     
 
     img{
-        float: left;
-        height: 300px;
+        // float: left;
+        height: auto;
+        width: 100%;
         border-radius: 5%;
         margin-top: 1em;
         margin-right: 2em;
@@ -78,7 +79,10 @@
 
     .metodiki{
     
-        // img{ }
+        img{
+            height: auto;
+            width: 100%;
+        }
     
         p{font-size: 1.2em;}
     
@@ -125,7 +129,10 @@
 
     .metodiki{
     
-        // img{ }
+        img{
+            height: auto;
+            width: 100%;
+        }
     
         p{font-size: 1.2em;}
     
@@ -172,7 +179,10 @@
 
     .metodiki{
     
-        // img{ }
+        img{
+            height: auto;
+            width: 100%;
+        }
     
         p{font-size: 1.4em;}
     
@@ -233,7 +243,10 @@
 
     .metodiki{
     
-        // img{ }
+        img{
+           float: left;
+           height: 200px;
+         }
     
         p{font-size: 1.3em;}
     
@@ -295,7 +308,10 @@
     
     .metodiki{
     
-        // img{ }
+        img{
+            float: left;
+           height: 200px;
+        }
     
         p{font-size: 1.3em;}
     
@@ -355,7 +371,10 @@
     
     .metodiki{
     
-        // img{ }
+        img{
+            float: left;    
+            height: 200px;
+        }
     
         p{font-size: 1.3em;}
     
@@ -416,7 +435,10 @@
     
     .metodiki{
     
-        // img{ }
+        img{
+            float: left;
+            height: 300px;
+        }
     
         p{font-size: 1.3em;}
     
@@ -476,7 +498,10 @@
     
     .metodiki{
     
-        // img{ }
+        img{
+            float: left;
+            height: 300px;
+        }
     
         p{font-size: 1.3em;}
     

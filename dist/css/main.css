@@ -1274,8 +1274,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
   line-height: 2.5em;
   color: #5c5c5c; }
   .metodiki img {
-    float: left;
-    height: 300px;
+    height: auto;
+    width: 100%;
     border-radius: 5%;
     margin-top: 1em;
     margin-right: 2em;
@@ -1319,6 +1319,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     color: #fff; }
 
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+  .metodiki img {
+    height: auto;
+    width: 100%; }
   .metodiki p {
     font-size: 1.2em; }
   .icons-metodiki p {
@@ -1340,6 +1343,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     font-size: 1.3em; } }
 
 @media only screen and (min-width: 480px) and (max-width: 629px) {
+  .metodiki img {
+    height: auto;
+    width: 100%; }
   .metodiki p {
     font-size: 1.2em; }
   .icons-metodiki p {
@@ -1361,6 +1367,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     font-size: 1.3em; } }
 
 @media only screen and (min-width: 630px) and (max-width: 767px) {
+  .metodiki img {
+    height: auto;
+    width: 100%; }
   .metodiki p {
     font-size: 1.4em; }
   .icons-metodiki p {
@@ -1406,6 +1415,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 200px; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1447,6 +1459,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 200px; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1488,6 +1503,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 200px; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1529,6 +1547,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 300px; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1570,6 +1591,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 300px; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
