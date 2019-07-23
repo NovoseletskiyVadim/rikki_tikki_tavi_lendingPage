@@ -1274,6 +1274,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
   line-height: 2.5em;
   color: #5c5c5c; }
   .metodiki img {
+    float: left;
     height: auto;
     width: 100%;
     border-radius: 5%;
@@ -1420,7 +1421,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 100%; }
   .metodiki img {
     float: left;
-    height: 200px; }
+    height: 200px;
+    width: auto; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1464,7 +1466,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 100%; }
   .metodiki img {
     float: left;
-    height: 200px; }
+    height: 200px;
+    width: auto; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1508,7 +1511,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 100%; }
   .metodiki img {
     float: left;
-    height: 200px; }
+    height: 200px;
+    width: auto; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1552,7 +1556,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 100%; }
   .metodiki img {
     float: left;
-    height: 300px; }
+    height: 300px;
+    width: auto; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1596,7 +1601,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 100%; }
   .metodiki img {
     float: left;
-    height: 300px; }
+    height: 300px;
+    width: auto; }
   .metodiki p {
     font-size: 1.3em; }
   .icons-metodiki p {
@@ -1637,7 +1643,25 @@ article, aside, figure, footer, header, hgroup, nav, section {
   .container .cols.col-11 {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
-    width: 100%; } }
+    width: 100%; }
+  .metodiki img {
+    float: left;
+    height: 300px; }
+  .metodiki p {
+    font-size: 1.3em; }
+  .icons-metodiki p {
+    width: 90%;
+    font-size: 1.3em;
+    text-indent: 0;
+    text-align: center; }
+    .icons-metodiki p .iconSize {
+      display: inline-block;
+      height: 1em; }
+  .icons-metodiki button {
+    margin-top: 0.5em;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 1.2em; } }
 
 @media only screen and (min-width: 1920px) and (max-width: 2160px) {
   .container .cols.col-1 {
@@ -1664,6 +1688,17 @@ article, aside, figure, footer, header, hgroup, nav, section {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; } }
+
+.upButton {
+  margin-top: 2em; }
+  .upButton img {
+    width: 5%; }
+
+.downButton button {
+  font-size: 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 20%; }
 
 .headlines {
   font-weight: bold;
