@@ -12,6 +12,7 @@
         border-radius: 5%;
         margin-top: 1em;
         margin-right: 2em;
+        margin-left: 0.5em;
         margin-bottom: 2em;
 
     }
@@ -544,6 +545,7 @@
         img{
             float: left;
             height: 300px;
+            width: auto;
         }
     
         p{font-size: 1.3em;}
@@ -596,6 +598,44 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
+    .metodiki{
+    
+        img{
+            float: left;
+            height: 300px;
+            width: auto;
+        }
+    
+        p{font-size: 1.3em;}
+    
+    };
 
+    .icons-metodiki{
+        
+        p{
+            width: 90%;
+            font-size: 1.3em;
+            text-indent: 0;
+            text-align: center;
+        
+            .iconSize{
+                display: inline-block;
+                height: 1em;
+            };
+            
+            
+    
+           
+        };
+    
+        button{
+            margin-top: 0.5em;
+            border: 1px solid black;
+            width: 50%;
+            font-size: 1.2em;
+    
+    
+        };
+    };
 
 };
