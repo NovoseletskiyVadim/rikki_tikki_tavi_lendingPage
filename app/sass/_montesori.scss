@@ -1,30 +1,5 @@
 
 
-.upButton{
-    margin-top: 2em;
-
-    img{
-
-        width: 5%;
-    }
-}
-
-.downButton{
-
-    button{
-        font-size: 1.5em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        border-radius: 5px;
-        font-weight: bold;
-        width: 20%;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-
-    }
-}
-
-
 .headerMontesori{
     h2{ 
         margin-top: 2em;
@@ -83,19 +58,7 @@
 
 @media only screen and (min-width : 280px) and (max-width : 479px){
                         
-    .upButton{
     
-        img{
-    
-            width: 25%;
-        };
-    };
-
-    .downButton button {
-        font-size: 1.2em;
-        width: 45%;
-    };
-
     .headerMontesori{
         h2{ 
             margin-top: 1em;
@@ -126,14 +89,7 @@
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
               
-    .upButton{
     
-        img{
-    
-            width: 15%;
-        };
-    };
-
     .headerMontesori{
         h2{ 
             margin-top: 1em;
@@ -160,23 +116,14 @@
         font-size: 1.1em;
     };
 
-    .downButton button {
-        font-size: 1.2em;
-        width: 40%;
-    };
+   
 
 };
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
               
-    .upButton{
     
-        img{
-    
-            width: 10%;
-        };
-    };
    
     .headerMontesori{
         h2{ 
@@ -204,10 +151,7 @@
         font-size: 1.3em;
     };
 
-    .downButton button {
-        font-size: 1.2em;
-        width: 35%;
-    };
+    
 
 };
 
@@ -229,13 +173,7 @@
 
    
               
-    .upButton{
     
-        img{
-    
-            width: 9%;
-        };
-    };
     
     .headerMontesori{
         h2{ 
@@ -263,10 +201,7 @@
         font-size: 1.3em;
     };
 
-    .downButton button {
-        font-size: 1.2em;
-        width: 25%;
-    };
+   
 
 };
 
@@ -287,13 +222,6 @@
     .container .cols.col-12{width: 100%;}
 
               
-    .upButton{
-    
-        img{
-    
-            width: 9%;
-        };
-    };
     
     .headerMontesori{
         h2{ 
@@ -321,10 +249,7 @@
         font-size: 1.3em;
     };
 
-    .downButton button {
-        font-size: 1.2em;
-        width: 25%;
-    };
+   
 
 };
 
@@ -344,13 +269,7 @@
     .container .cols.col-12{width: 100%;}
 
               
-    .upButton{
     
-        img{
-    
-            width: 9%;
-        };
-    };
     
     .headerMontesori{
         h2{ 
@@ -378,11 +297,7 @@
         font-size: 1.4em;
     };
 
-    .downButton button {
-        font-size: 1.3em;
-        width: 25%;
-    };
-
+   
 };
 
 @media only screen and (min-width : 1024px) and (max-width : 1199px){
@@ -401,13 +316,7 @@
     .container .cols.col-12{width: 100%;}
   
               
-    .upButton{
     
-        img{
-    
-            width: 8%;
-        };
-    };
     
     .headerMontesori{
         h2{ 
@@ -435,10 +344,7 @@
         font-size: 1.4em;
     };
   
-    .downButton button {
-        font-size: 1.3em;
-        width: 25%;
-    };
+
 };
 
 @media only screen and (min-width : 1199px) and (max-width : 1379px){
@@ -457,13 +363,7 @@
     .container .cols.col-12{width: 100%;}
 
               
-    .upButton{
     
-        img{
-    
-            width: 6%;
-        };
-    };
     
     .headerMontesori{
         h2{ 
@@ -491,10 +391,7 @@
         font-size: 1.4em;
     };
 
-    .downButton button {
-        font-size: 1.3em;
-        width: 25%;
-    };
+    
 };
 
 
@@ -514,13 +411,7 @@
     .container .cols.col-12{width: 100%;}
 
              
-    .upButton{
     
-        img{
-    
-            width: 6%;
-        };
-    };
 
     .headerMontesori{
         h2{ 
@@ -548,10 +439,7 @@
         font-size: 1.4em;
     };
 
-    .downButton button {
-        font-size: 1.3em;
-        width: 20%;
-    };
+    
 };
 
 @media only screen and (min-width : 1920px) and (max-width : 2160px){
@@ -570,13 +458,7 @@
     .container .cols.col-12{width: 100%;}
 
               
-    .upButton{
     
-        img{
-    
-            width: 4%;
-        };
-    };
 
     .headerMontesori{
         h2{ 
@@ -604,8 +486,5 @@
         font-size: 1.4em;
     };
 
-    .downButton button {
-        font-size: 1.3em;
-        width: 15%;
-    };
+    
 };
