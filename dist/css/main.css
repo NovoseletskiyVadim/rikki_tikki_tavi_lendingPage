@@ -2455,6 +2455,11 @@ article, aside, figure, footer, header, hgroup, nav, section {
   width: 90%;
   border-radius: 75px; }
 
+.verticalAlighn img {
+  width: auto;
+  height: 600px;
+  border-radius: 75px; }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
