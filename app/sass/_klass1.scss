@@ -1,0 +1,188 @@
+.klass1{
+    h2{
+        margin-top: 1em;
+        color:#5c5c5c; 
+        margin-bottom: 1em;
+    }
+}
+
+.todler{
+    h3{
+        color:#5c5c5c;
+        padding-left: 1em;
+        padding-right: 1em; 
+
+    };
+};
+
+.road {
+
+    height: 3em;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    
+    margin-top:2em;
+    position: relative;
+    background-color: aquamarine;
+
+    p{
+        margin-top: 0.5em;        
+        // color:blue;
+        font-size: 1.5em;
+        font-weight: bold;
+    };
+
+};
+
+
+.circle {
+    z-index: 100;
+    position: relative;
+    margin-top: 3.5em;
+
+    .span {
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        padding: 50% 0;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        border-top: 1px solid ;
+        border-bottom: 1px solid ;
+       
+    };
+
+    
+
+    .text {
+        position: relative;
+        top: -.5em;
+        padding: 0em 0.65em;
+        font-size: 4em;
+        font-weight: bold;
+    };
+
+};
+
+.circle-left{float: left;}
+.circle-right{float: right;}
+
+.manipulation{
+    background-color: aquamarine;
+    border-top-color: blue;
+    border-bottom-color:blue;
+};
+.manipulation-text{
+    color: blue;
+};
+
+.road-manipulation{
+    background-color: aquamarine;
+    border-top-color: blue;
+    border-bottom-color:blue;
+
+    p{color: blue;}
+};
+
+// ++++++++++++++++++++
+.road-life{
+    background-color: rgba(172, 255, 47, 1);
+    border-top-color: forestgreen;
+    border-bottom-color: forestgreen;
+}
+
+.life{
+    background-color: rgba(172, 255, 47, 1);
+    border-top-color: green;
+    border-bottom-color:green;
+};
+.life-text{
+    color: darkgreen;
+};
+// ++++++++++++++++++++++++++
+
+.art{
+    background-color: rgb(255, 234, 47);
+    border-top-color: goldenrod;
+    border-bottom-color:  goldenrod;
+};
+.art-text{
+    color: goldenrod;
+};
+.road-art{
+    background-color: rgb(255, 234, 47);
+    border-top-color: goldenrod;
+    border-bottom-color:  goldenrod;
+    p{ color: goldenrod};
+}
+// +++++++++++++++++++++++++++++++++++++++++++
+
+
+.sensor{
+    background-color: orangered;
+    border-top-color: darkred;
+    border-bottom-color:  darkred;
+};
+
+.road-sensor{
+    background-color: orangered;
+    border-top-color: darkred;
+    border-bottom-color:  darkred;  
+    p{ color: darkred}; 
+};
+
+.sensor-text{
+    color: darkred;
+};
+
+// +++++++++++++++++++++
+
+.speech{
+    background-color: darkorchid;
+    border-top-color: indigo;
+    border-bottom-color:  indigo;
+};
+
+.road-speech{
+
+    background-color: darkorchid;
+    border-top-color: indigo;
+    border-bottom-color:  indigo;
+
+    p{ color: rgb(63, 0, 109)}; 
+};
+
+.speech-text{
+    color: rgb(63, 0, 109);
+}
+// ++++++++++++++++++++
+
+
+
+.aboutZona{
+
+
+    p{
+        text-align: justify;
+        text-indent: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1.4em;
+        line-height: 1.5em;
+        color: #5c5c5c;
+
+        span.bold{
+            font-weight: bold;
+        };
+    };
+
+    img{
+        width: 90%;
+        border-radius: 75px;
+    };
+};
+  
+  
+  
+  
