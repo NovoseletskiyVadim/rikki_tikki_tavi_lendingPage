@@ -1730,6 +1730,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
   padding-left: 0.5em;
   padding-right: 0.5em;
   line-height: 2em; }
+  .aboutMontesori p .importantInformation {
+    font-weight: bold; }
 
 .montesoriTable table {
   margin-top: 2em;
