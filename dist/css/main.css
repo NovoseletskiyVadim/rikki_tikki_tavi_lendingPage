@@ -62,13 +62,13 @@ article, aside, figure, footer, header, hgroup, nav, section {
   width: 100%; }
   .addressPanel a {
     text-decoration: none; }
-  .addressPanel span {
-    color: white;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-left: 0.5em; }
   .addressPanel .telephone, .addressPanel .mailTo, .addressPanel .schedule {
     line-height: 2em; }
+    .addressPanel .telephone span, .addressPanel .mailTo span, .addressPanel .schedule span {
+      color: white;
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-left: 0.5em; }
     .addressPanel .telephone i.fa-globe, .addressPanel .mailTo i.fa-globe, .addressPanel .schedule i.fa-globe {
       color: white; }
     .addressPanel .telephone i.fa-phone, .addressPanel .mailTo i.fa-phone, .addressPanel .schedule i.fa-phone {
@@ -305,9 +305,11 @@ article, aside, figure, footer, header, hgroup, nav, section {
     text-align: left;
     margin: 0; }
   .logoPanel i.fa-facebook-f {
-    line-height: 250%; }
+    line-height: 250%;
+    color: blue; }
   .logoPanel i.fa-instagram {
-    line-height: 250%; }
+    line-height: 250%;
+    color: #fd7e45; }
 
 @media (max-width: 767px) {
   .logoPanel {
@@ -2323,10 +2325,12 @@ article, aside, figure, footer, header, hgroup, nav, section {
 .klass1 h2 {
   margin-top: 1em;
   color: #5c5c5c;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 1.8em; }
 
 .todler h3 {
   color: #5c5c5c;
+  font-size: 1.4em;
   padding-left: 1em;
   padding-right: 1em; }
 
@@ -2461,6 +2465,11 @@ article, aside, figure, footer, header, hgroup, nav, section {
   width: auto;
   height: 600px;
   border-radius: 75px; }
+
+.head h2 {
+  margin-top: 1em;
+  color: #780000;
+  font-size: 2em; }
 
 .poins {
   color: #5c5c5c; }
