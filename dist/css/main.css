@@ -2462,6 +2462,30 @@ article, aside, figure, footer, header, hgroup, nav, section {
   height: 600px;
   border-radius: 75px; }
 
+.poins {
+  color: #5c5c5c; }
+  .poins h3 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: blue;
+    padding-left: 1em;
+    padding-right: 1em; }
+  .poins p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-indent: 1em;
+    line-height: 1.5em; }
+  .poins ul {
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style-position: inside;
+    font-size: 1.5em;
+    text-align: justify; }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
