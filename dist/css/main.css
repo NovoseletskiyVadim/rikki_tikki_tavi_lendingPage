@@ -2495,6 +2495,25 @@ article, aside, figure, footer, header, hgroup, nav, section {
     font-size: 1.5em;
     text-align: justify; }
 
+.nav-table {
+  color: red; }
+
+.contacts {
+  color: #6F6F6F; }
+  .contacts .adress {
+    width: 90%;
+    display: inline-block; }
+    .contacts .adress h2 {
+      font-size: 1.8em;
+      margin: 0.4em 0 0.4em 0; }
+    .contacts .adress p {
+      font-size: 1.4em; }
+    .contacts .adress i.fa-phone {
+      transform: rotate(160deg); }
+
+iframe.maps {
+  width: 90%; }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
