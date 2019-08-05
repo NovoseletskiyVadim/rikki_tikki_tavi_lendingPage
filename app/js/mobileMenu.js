@@ -28,4 +28,16 @@ $(document).ready(function(){
 		}
 	});
 
+	$(window).scroll(function(){
+		var docscroll=$(document).scrollTop();
+		
+		// console.log('scrollllll' );
+		if(docscroll>124){
+			$('nav').addClass('fixed');
+		
+		}else{
+		  $('nav').removeClass('fixed');
+		}
+	  });
+
 });
