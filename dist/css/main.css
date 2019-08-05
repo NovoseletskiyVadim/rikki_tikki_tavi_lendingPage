@@ -2514,6 +2514,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
 iframe.maps {
   width: 90%; }
 
+.calendar iframe {
+  font-size: 5em; }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
