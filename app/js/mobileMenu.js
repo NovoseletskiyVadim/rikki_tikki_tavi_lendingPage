@@ -24,6 +24,7 @@ $(document).ready(function(){
 		var w = $(window).width();
 		if(w > 767 && menu.is(':hidden')) {
 			menu.removeAttr('style');
+
 		}
 	});
 

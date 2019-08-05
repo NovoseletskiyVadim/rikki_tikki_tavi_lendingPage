@@ -45,6 +45,13 @@
     
 }
 
+.fixed{
+    position: fixed;
+    top:2em;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
 
