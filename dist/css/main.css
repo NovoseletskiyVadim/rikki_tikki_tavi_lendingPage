@@ -2957,7 +2957,7 @@ iframe.maps {
 /* TODO: замещение календаря */
 .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
   background-color: #e3e3e3;
-  min-height: 3.4em; }
+  min-height: 3.1em; }
 
 .eventCalendar-day a {
   text-decoration: none;
@@ -3230,71 +3230,15 @@ pre {
     font-size: 1.1em; } }
 
 @media only screen and (min-width: 480px) and (max-width: 629px) {
-  .eventCalendar-wrap .eventCalendar-arrow {
-    padding: 0 5px;
-    line-height: 28px;
-    /*  отступы стрелок влево вправо */
-    top: 1px;
-    padding: 18px 10px; }
-  .eventCalendar-currentTitle {
-    /*  Высота синего блока*/
-    line-height: 3em; }
-  /* замещение календаря */
-  .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
-    background-color: #e3e3e3;
-    min-height: 3.4em; }
-  .eventCalendar-showAsWeek .eventCalendar-day a {
-    border: solid 1px #e3e3e3;
-    border-color: #fff #e3e3e3 #e3e3e3 #e3e3e3;
-    line-height: 3em;
-    font-size: 1.1em; }
   .eventCalendar-subtitle {
-    display: inline-block;
-    width: 90%;
     padding-top: 2em;
     padding-bottom: 1em;
-    font-size: 2em; }
-  /* дата события*/
-  .eventCalendar-list li time em {
-    float: left;
-    font-style: normal;
-    background-color: #767676;
-    color: #fff;
-    padding: 5px 5px 5px 5px;
     font-size: 2em; } }
 
 @media only screen and (min-width: 630px) and (max-width: 767px) {
-  .eventCalendar-wrap .eventCalendar-arrow {
-    padding: 0 5px;
-    line-height: 28px;
-    /*  отступы стрелок влево вправо */
-    top: 1px;
-    padding: 18px 10px; }
-  .eventCalendar-currentTitle {
-    /*  Высота синего блока*/
-    line-height: 3em; }
-  /* замещение календаря */
-  .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
-    background-color: #e3e3e3;
-    min-height: 3.4em; }
-  .eventCalendar-showAsWeek .eventCalendar-day a {
-    border: solid 1px #e3e3e3;
-    border-color: #fff #e3e3e3 #e3e3e3 #e3e3e3;
-    line-height: 3em;
-    font-size: 1.1em; }
   .eventCalendar-subtitle {
-    display: inline-block;
-    width: 90%;
     padding-top: 2em;
     padding-bottom: 1em;
-    font-size: 2em; }
-  /* дата события*/
-  .eventCalendar-list li time em {
-    float: left;
-    font-style: normal;
-    background-color: #767676;
-    color: #fff;
-    padding: 5px 5px 5px 5px;
     font-size: 2em; } }
 
 @media only screen and (min-width: 767px) and (max-width: 849px) {
@@ -3322,47 +3266,10 @@ pre {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
-  .eventCalendar-wrap .eventCalendar-arrow {
-    padding: 0 5px;
-    line-height: 28px;
-    /*  отступы стрелок влево вправо */
-    top: 1px;
-    padding: 18px 10px; }
-  .eventCalendar-currentTitle {
-    /*  Высота синего блока*/
-    line-height: 3em; }
-  /* замещение календаря */
-  .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
-    background-color: #e3e3e3;
-    min-height: 3.4em; }
-  .eventCalendar-showAsWeek .eventCalendar-day a {
-    border: solid 1px #e3e3e3;
-    border-color: #fff #e3e3e3 #e3e3e3 #e3e3e3;
-    line-height: 3em;
-    font-size: 1.1em; }
   .eventCalendar-subtitle {
-    display: inline-block;
-    width: 90%;
     padding-top: 2em;
     padding-bottom: 1em;
-    font-size: 2em; }
-  /* дата события*/
-  .eventCalendar-list li time em {
-    float: left;
-    font-style: normal;
-    background-color: #767676;
-    color: #fff;
-    padding: 5px 5px 5px 5px;
-    font-size: 2em; }
-  p.eventCalendar-eventDesc {
-    color: red;
-    font-size: 1.4em; }
-  .bt {
-    font-size: 1.1em;
-    margin-top: 10px;
-    padding: 11px 34px 12px; }
-  .bt:hover {
-    font-size: 1.1em; } }
+    font-size: 2em; } }
 
 @media screen and (min-width: 850px) and (max-width: 991px) {
   .container .cols.col-1 {
@@ -3389,47 +3296,10 @@ pre {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
     width: 100%; }
-  .eventCalendar-wrap .eventCalendar-arrow {
-    padding: 0 5px;
-    line-height: 28px;
-    /*  отступы стрелок влево вправо */
-    top: 1px;
-    padding: 18px 10px; }
-  .eventCalendar-currentTitle {
-    /*  Высота синего блока*/
-    line-height: 3em; }
-  /* замещение календаря */
-  .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
-    background-color: #e3e3e3;
-    min-height: 3.4em; }
-  .eventCalendar-showAsWeek .eventCalendar-day a {
-    border: solid 1px #e3e3e3;
-    border-color: #fff #e3e3e3 #e3e3e3 #e3e3e3;
-    line-height: 3em;
-    font-size: 1.1em; }
   .eventCalendar-subtitle {
-    display: inline-block;
-    width: 90%;
     padding-top: 2em;
     padding-bottom: 1em;
-    font-size: 2em; }
-  /* дата события*/
-  .eventCalendar-list li time em {
-    float: left;
-    font-style: normal;
-    background-color: #767676;
-    color: #fff;
-    padding: 5px 5px 5px 5px;
-    font-size: 2em; }
-  p.eventCalendar-eventDesc {
-    color: red;
-    font-size: 1.4em; }
-  .bt {
-    font-size: 1.1em;
-    margin-top: 10px;
-    padding: 11px 34px 12px; }
-  .bt:hover {
-    font-size: 1.1em; } }
+    font-size: 2em; } }
 
 @media screen and (min-width: 991px) and (max-width: 1023px) {
   .container .cols.col-1 {
@@ -3457,18 +3327,8 @@ pre {
   .container .cols.col-12 {
     width: 100%; }
   .eventCalendar-subtitle {
-    display: inline-block;
-    width: 90%;
     padding-top: 2em;
     padding-bottom: 1em;
-    font-size: 2em; }
-  /* дата события*/
-  .eventCalendar-list li time em {
-    float: left;
-    font-style: normal;
-    background-color: #767676;
-    color: #fff;
-    padding: 5px 5px 5px 5px;
     font-size: 2em; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -3585,7 +3445,11 @@ pre {
   .container .cols.col-11 {
     width: 91.66666666666667%; }
   .container .cols.col-12 {
-    width: 100%; } }
+    width: 100%; }
+  .eventCalendar-subtitle {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 2em; } }
 
 .headlines {
   font-weight: bold;
