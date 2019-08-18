@@ -3199,7 +3199,7 @@ pre {
   /* замещение календаря */
   .eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
     background-color: #e3e3e3;
-    min-height: 3.4em; }
+    min-height: 2.2em; }
   .eventCalendar-showAsWeek .eventCalendar-day a {
     border: solid 1px #e3e3e3;
     border-color: #fff #e3e3e3 #e3e3e3 #e3e3e3;
