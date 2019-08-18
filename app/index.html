@@ -10,6 +10,9 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
     <link type="text/css" href="./font/fontawesome/css/all.css" rel="stylesheet"> 
     <link  rel="stylesheet" href="css/main.css">
+    <!-- <link  rel="stylesheet" href="css/calendar/eventCalendar.css"> -->
+    <!-- <link  rel="stylesheet" href="css/calendar/eventCalendar_theme_responsive.css"> -->
+
 
    
 
@@ -132,9 +135,7 @@
                         <li class="slide">
                             <img src="img/slider/6.jpg" alt="flying super squirrel">
                         </li>
-                        <!-- <li class="slide">
-                            <img src="img/7.jpg" alt="flying super squirrel">
-                        </li> -->
+                        
                         <li class="slide">
                             <img src="img/slider/8.jpg" alt="flying super squirrel">
                         </li>
@@ -164,16 +165,6 @@
             </div>
         </div>
     
-        <!-- <div class="row mainBlock">
-            <div class="cols col-12">
-                
-    
-                
-                
-    
-                
-        </div>
-
          <!-- commponent About -->
 
         <div id="about" class="row headlines">
@@ -247,8 +238,7 @@
         <div class="row metodiki">
 
             <div class="cols col-12">
-                <!-- <h2  style="margin-top:2em; font-size:2em; ">Методики:</h2> -->
-             <img src="img/metodiki.jpg" alt="методики Монтесори">
+                 <img src="img/metodiki.jpg" alt="методики Монтесори">
 
                 <p>Наша команда пропонує чудовий старт у набутті інтелектуальних навичок, розвиваючи необхідну
                         соціальну та емоційну обізнаність, розширення життєвих сил і енергії. Продумані, практичні, гарні матеріали
@@ -332,8 +322,11 @@
         </div>
 
         <div class="row calendar">
-            <div class="cols col-12" style="font-size: 3em">
-                <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FKiev&amp;src=cmlra2ltb250ZXNzb3JpQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=dWsudWtyYWluaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border-width:0;" width="98%" height="900" frameborder="2" scrolling="no"></iframe>
+            <div class="cols col-12" >
+               
+                <div id="eventCalendar" class="sizeCalendar " ></div>
+
+                <!-- <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FKiev&amp;src=cmlra2ltb250ZXNzb3JpQGdtYWlsLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=dWsudWtyYWluaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border-width:0;" width="98%" height="900" frameborder="2" scrolling="no"></iframe> -->
             
             
             
@@ -371,7 +364,7 @@
 
             </div>
         </div>
-        </div> -->
+        </div> 
     
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script> -->
     <!-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> -->
@@ -380,5 +373,8 @@
     <script src="js/mobileMenu.js" type="text/javascript"></script>
     <script src="js/slider.js" type="text/javascript"></script> 
     <script src="js/goBack.js" type="text/javascript"></script> 
+    <script src="js/calendar/moment.js"></script>
+    <script src="js/calendar/jquery.eventCalendar.js"></script>
+    <script src="js/calendar/displayCalendar.js"></script>
 </body>
 </html>

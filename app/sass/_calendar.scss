@@ -1,6 +1,379 @@
+.sizeCalendar{
+	width: 90%;
+	margin: 50px auto;
+}
 
-.calendar{
-    iframe{
-        font-size: 5em;
-    }
+/*= CORE CSS */
+.eventCalendar-hidden {
+	display: none;
+}
+
+.eventCalendar-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.eventCalendar-arrow {
+	position: absolute;
+	z-index: 5;
+	top: 3px;
+}
+
+.eventCalendar-prev {
+	left: 3px;
+}
+
+.eventCalendar-next {
+	right: 3px;
+}
+
+.eventCalendar-monthTitle {
+	display: block;
+	text-align: center;
+}
+
+.eventCalendar-monthWrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.eventCalendar-currentMonth {
+	z-index: 1;
+}
+
+.eventCalendar-daysList {
+	display: table;
+	width: 100%;
+}
+
+.eventCalendar-showAsWeek {
+	display: block;
+}
+
+.eventCalendar-daysList li {
+	display: table-cell;
+}
+
+.eventCalendar-dayWithEvents {
+	background: rgba(0, 0, 0, 0.15);
+}
+
+.eventCalendar-current {
+	background: rgba(0, 0, 0, 0.35);
+}
+
+.eventCalendar-showAsWeek li {
+	display: block;
+	float: left;
+	width: 14.28%;
+	height: 20px;
+}
+
+.eventCalendar-daysList a {
+	padding: 0;
+	display: block;
+	text-align: center;
+	font-size: 8px;
+	min-width: 7px;
+}
+
+.eventCalendar-loading {
+	display: block;
+	min-width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.eventCalendar-list {
+	position: relative;
+	z-index: 1;
+}
+
+.eventCalendar-oldEventList {
+	z-index: 2;
+}
+
+/* TODO: стиль : месяц запл события  */
+.eventCalendar-subtitle {
+	padding-left: 0px;
+	font-size: 120%;
+}
+/* end of core CSS */
+
+
+
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+
+
+	.sizeCalendar{
+		width: 90%;
+		margin: 50px auto;
+	}
+    
+
 };
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+
+  
+
+};
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+
+
+    
+};
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .about{
+
+        h3{font-size: 2em;}
+    
+        
+    
+        img{
+            float: right;
+            height: 200px;
+            border-radius: 5%;
+            margin-top: 1em;
+            margin-left: 2em;
+            margin-bottom: 2em;
+    
+        }
+    
+        p{
+            text-indent: 1em;
+            text-align: justify;
+            font-size: 1.3em;
+            margin: 0;
+            margin-left: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+    
+        ul{
+            text-align: justify;
+            list-style-position: inside;
+            margin-left: 1em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            font-size: 1.3em;
+          
+        } 
+    
+    }
+    
+    
+   
+};
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .about{
+
+        h3{font-size: 2em;}
+    
+        
+    
+        img{
+            float: right;
+            height: 200px;
+            border-radius: 5%;
+            margin-top: 1em;
+            margin-left: 2em;
+            margin-bottom: 2em;
+    
+        }
+    
+        p{
+            text-indent: 1em;
+            text-align: justify;
+            font-size: 1.3em;
+            margin: 0;
+            margin-left: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+    
+        ul{
+            text-align: justify;
+            list-style-position: inside;
+            margin-left: 1em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            font-size: 1.3em;
+          
+        } 
+    
+    }
+  
+};
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .sizeCalendar{
+		width: 90%;
+		margin: 50px auto;
+	}
+
+
+};
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+  
+    .about{
+
+        h3{font-size: 2em;}
+    
+        
+    
+        img{
+            float: right;
+            height: 300px;
+            border-radius: 5%;
+            margin-top: 1em;
+            margin-left: 2em;
+            margin-bottom: 2em;
+    
+        }
+    
+        p{
+            font-size: 1.5em;
+            margin: 0;
+            margin-left: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+    
+        ul{
+            margin-left: 1em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            font-size: 1.5em;
+          
+        } 
+    
+    }
+  
+};
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .sizeCalendar{
+		width: 90%;
+		margin: 50px auto;
+	}
+    
+};
+
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+
+
+
+};
+
+@media only screen and (min-width : 1920px) and (max-width : 2160px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+
+
+};
+
