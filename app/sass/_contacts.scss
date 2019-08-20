@@ -5,6 +5,14 @@
 .contacts{
     color:#6F6F6F;
 
+    .googleMaps{
+        iframe{
+            width: 90%;
+            height:450px;
+            border: 1;
+        }
+    }
+
     .adress{
         width: 90%;
         display: inline-block;
