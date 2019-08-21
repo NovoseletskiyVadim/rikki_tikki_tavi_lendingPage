@@ -69,7 +69,7 @@ background-color:#fff;
 }
 .eventCalendar-daysList.showDayNames.eventCalendar-showAsWeek {
 
-border-radius:none;
+    border-radius:0;
 }
 .eventCalendar-daysList:before, .eventCalendar-daysList:after { content:""; display:table; }
 .eventCalendar-daysList:after { clear: both; }
