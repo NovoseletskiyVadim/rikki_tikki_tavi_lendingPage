@@ -2508,6 +2508,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 .contacts {
   color: #6F6F6F; }
+  .contacts .googleMaps iframe {
+    width: 90%;
+    height: 450px; }
   .contacts .adress {
     width: 90%;
     display: inline-block; }
@@ -2934,7 +2937,7 @@ iframe.maps {
   background-color: #fff; }
 
 .eventCalendar-daysList.showDayNames.eventCalendar-showAsWeek {
-  border-radius: none; }
+  border-radius: 0; }
 
 .eventCalendar-daysList:before, .eventCalendar-daysList:after {
   content: "";
