@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: rikkimontessori.in.ua
+Sitemap: http://rikkimontessori.in.ua/sitemap.xml
