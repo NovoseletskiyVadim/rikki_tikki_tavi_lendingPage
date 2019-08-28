@@ -63,21 +63,21 @@ article, aside, figure, footer, header, hgroup, nav, section {
   width: 100%; }
   .addressPanel a {
     text-decoration: none; }
-  .addressPanel .telephone, .addressPanel .mailTo, .addressPanel .schedule {
+  .addressPanel .language, .addressPanel .telephone, .addressPanel .mailTo, .addressPanel .schedule {
     line-height: 2em; }
-    .addressPanel .telephone span, .addressPanel .mailTo span, .addressPanel .schedule span {
+    .addressPanel .language span, .addressPanel .telephone span, .addressPanel .mailTo span, .addressPanel .schedule span {
       color: white;
       font-size: 1.3em;
       font-weight: bold;
       margin-left: 0.5em; }
-    .addressPanel .telephone i.fa-globe, .addressPanel .mailTo i.fa-globe, .addressPanel .schedule i.fa-globe {
+    .addressPanel .language i.fa-globe, .addressPanel .telephone i.fa-globe, .addressPanel .mailTo i.fa-globe, .addressPanel .schedule i.fa-globe {
       color: white; }
-    .addressPanel .telephone i.fa-phone, .addressPanel .mailTo i.fa-phone, .addressPanel .schedule i.fa-phone {
+    .addressPanel .language i.fa-phone, .addressPanel .telephone i.fa-phone, .addressPanel .mailTo i.fa-phone, .addressPanel .schedule i.fa-phone {
       transform: rotate(160deg);
       color: white; }
-    .addressPanel .telephone i.fa-envelope, .addressPanel .mailTo i.fa-envelope, .addressPanel .schedule i.fa-envelope {
+    .addressPanel .language i.fa-envelope, .addressPanel .telephone i.fa-envelope, .addressPanel .mailTo i.fa-envelope, .addressPanel .schedule i.fa-envelope {
       color: white; }
-    .addressPanel .telephone i.fa-clock, .addressPanel .mailTo i.fa-clock, .addressPanel .schedule i.fa-clock {
+    .addressPanel .language i.fa-clock, .addressPanel .telephone i.fa-clock, .addressPanel .mailTo i.fa-clock, .addressPanel .schedule i.fa-clock {
       color: white; }
 
 @media only screen and (min-width: 280px) and (max-width: 479px) {
