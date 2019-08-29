@@ -15,7 +15,7 @@ $(function(){
         dateFormat: 'DD-MM-YYYY',
         showDescription: false,
         locales: {
-            locale: "ru",
+            locale: "uk",
             txt_noEvents: "Відсутні заплановані події",
             txt_SpecificEvents_prev: "",
             txt_SpecificEvents_after: ":",
