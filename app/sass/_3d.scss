@@ -1,51 +1,35 @@
+.threeDtour{
 
-@import'reset';
-@import'container';
-@import'adressPanell';
-@import'logoPanel';
-@import'menuDesctop';
-@import'mobileMenu';
-@import'mainBlock';
-@import'slaider';
-@import'aboutClub';
-@import'3d';
-@import'metodiki';
-@import'montesori';
-@import'buttons';
-@import'klass1';
-@import'inClub';
-@import'contacts';
-@import'calendar';
-@import'calendar1';
-
-
-
-
-
-.headlines{
-    h2{margin-top: 2.1em; margin-bottom: 1em;}
-
-    font-weight: bold;
-    font-size: 2em;
-}
-p{font-weight: normal;}
-
+    p{
+        color: #5c5c5c;
+        font-size: 1.5em;
+        text-indent: 1em;
+        width: 30%;
+        text-align: justify; 
+        margin-left: 1em;
+        line-height: 2em;
+    };
+};
 
 
 
 @media only screen and (min-width : 280px) and (max-width : 479px){
 
+   
+    
 
 };
 
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
+    
 
 };
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
 
+    
 };
 
 @media only screen and (min-width : 767px) and (max-width : 849px) {
@@ -63,6 +47,9 @@ p{font-weight: normal;}
     .container .cols.col-10{width: 83.33333333333333%;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
+
+  
+    
     
    
 };
@@ -101,6 +88,7 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
+   
 
 };
 
@@ -119,8 +107,7 @@ p{font-weight: normal;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
   
-    
-  
+   
 };
 
 @media only screen and (min-width : 1199px) and (max-width : 1379px){
@@ -137,8 +124,6 @@ p{font-weight: normal;}
     .container .cols.col-10{width: 83.33333333333333%;}
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
-
-
 
     
 };
