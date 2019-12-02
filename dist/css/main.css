@@ -572,28 +572,23 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 @media (max-height: 330px) {
   .mobileMenu {
-    overflow: scroll;
-    height: 250px; } }
+    overflow: scroll; } }
 
 @media (max-height: 380px) {
   .mobileMenu {
-    overflow: scroll;
-    height: 310px; } }
+    overflow: scroll; } }
 
 @media (max-height: 420px) {
   .mobileMenu {
-    overflow: scroll;
-    height: 350px; } }
+    overflow: scroll; } }
 
 @media (max-height: 470px) {
   .mobileMenu {
-    overflow: scroll;
-    height: 400px; } }
+    overflow: scroll; } }
 
 @media (max-height: 520px) {
   .mobileMenu {
-    overflow: scroll;
-    height: 460px; } }
+    overflow: scroll; } }
 
 @media (max-width: 767px) {
   .menu {
