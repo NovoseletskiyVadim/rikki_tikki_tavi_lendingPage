@@ -785,7 +785,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 /** responsive styles **/
 @media screen and (min-width: 280px) and (max-width: 479px) {
   .slider {
-    margin-top: 2.5em;
+    margin-top: 1em;
     height: auto; }
   .slider-arrow {
     font-size: 1em; }
@@ -800,7 +800,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 @media screen and (min-width: 480px) and (max-width: 629px) {
   .slider {
-    margin-top: 2.5em;
+    margin-top: 1em;
     height: auto; }
   .slider-arrow--right {
     top: 35%;
@@ -816,7 +816,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 @media screen and (min-width: 630px) and (max-width: 767px) {
   .slider {
-    margin-top: 2.5em;
+    margin-top: 1em;
     height: auto; }
   .slider-arrow--right {
     top: 35%;
@@ -3788,7 +3788,7 @@ pre {
   font-weight: bold;
   font-size: 2em; }
   .headlines h2 {
-    margin-top: 2.1em;
+    margin-top: 1em;
     margin-bottom: 1em; }
 
 p {
@@ -3799,28 +3799,30 @@ p {
   background-color: yellow;
   border-radius: 100px;
   border: 3px solid #ffff00;
-  box-shadow: 0 0 7px #666; }
+  box-shadow: 0 0 7px #666;
+  margin-top: 3em;
+  margin-bottom: 0.5em; }
 
 @media only screen and (min-width: 280px) and (max-width: 479px) {
   .headlines {
     font-size: 2em; }
     .headlines h2 {
-      margin-top: 1em;
-      margin-bottom: 1em; } }
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; } }
 
 @media only screen and (min-width: 480px) and (max-width: 629px) {
   .headlines {
     font-size: 2em; }
     .headlines h2 {
-      margin-top: 1em;
-      margin-bottom: 1em; } }
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; } }
 
 @media only screen and (min-width: 630px) and (max-width: 767px) {
   .headlines {
     font-size: 2em; }
     .headlines h2 {
-      margin-top: 1em;
-      margin-bottom: 1em; }
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; }
   .simvolmongoose {
     width: 25%; } }
 
@@ -3850,7 +3852,9 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
-    width: 20%; } }
+    width: 20%; }
+  .nameForMoblile {
+    display: none; } }
 
 @media screen and (min-width: 850px) and (max-width: 991px) {
   .container .cols.col-1 {
@@ -3878,6 +3882,8 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
 
 @media screen and (min-width: 991px) and (max-width: 1023px) {
@@ -3906,6 +3912,8 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -3934,6 +3942,8 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
 
 @media only screen and (min-width: 1199px) and (max-width: 1379px) {
@@ -3962,6 +3972,8 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
 
 @media only screen and (min-width: 1379px) and (max-width: 1920px) {
@@ -3990,6 +4002,8 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
 
 @media only screen and (min-width: 1920px) and (max-width: 2160px) {
@@ -4018,4 +4032,6 @@ p {
   .container .cols.col-12 {
     width: 100%; }
   .simvolmongoose {
+    display: none; }
+  .nameForMoblile {
     display: none; } }
