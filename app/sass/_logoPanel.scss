@@ -56,7 +56,16 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
     
-    .logoPanel img{width: 80%;}
+    .logoPanel{
+        img{width: 70%;margin-top: 1em;}
+        h1{
+            font-size: 1.1em;
+            margin-top: 3em;
+        }
+        p{
+            font-size: 1.1em;
+        }
+    }
 };
 
 @media screen and (min-width: 850px) and (max-width:991px) {
@@ -74,7 +83,17 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .logoPanel img{width: 70%;}
+
+    .logoPanel{
+        img{width: 70%;margin-top: 1.5em;}
+        h1{
+            font-size: 1.2em;
+            margin-top: 3em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+    }
   
 };
 
@@ -93,7 +112,14 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .logoPanel img{width: 70%;}
+
+    .logoPanel{
+        img{width: 70%;}
+        h1{
+            font-size: 1.4em;
+            margin-top: 2em;
+        }
+    }
     
 
 };
@@ -113,7 +139,14 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
   
-    .logoPanel img{width: 60%;}
+
+    .logoPanel{
+        img{width: 60%;}
+        h1{
+            font-size: 1.4em;
+            margin-top: 2em;
+        }
+    }
     
   
 };
@@ -133,7 +166,13 @@
     .container .cols.col-11{width: 91.66666666666667%;}
     .container .cols.col-12{width: 100%;}
 
-    .logoPanel img{width: 50%;}
+    .logoPanel{
+        img{width: 50%;margin-top: 1em;}
+        h1{
+            font-size: 1.5em;
+            margin-top: 2em;
+        }
+    }
     
 };
 
