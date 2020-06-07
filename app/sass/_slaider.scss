@@ -2,13 +2,14 @@
 .slider {
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	overflow: hidden;
 
     .slides {
 
         height: 100%;
         overflow: hidden;
+        list-style-type: none;
         /**	
             * Prevent blinking issue
             * Not tested. Experimental.
@@ -132,6 +133,7 @@
 
 @media screen and (min-width: 768px) and (max-width : 849px) {
   
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 25%; right: 30px; }
   .slider-arrow--left { top: 25%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -141,6 +143,7 @@
 
 @media screen and (min-width: 850px) and (max-width : 991px){
 
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 35%; right: 30px; }
   .slider-arrow--left { top: 35%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -149,6 +152,7 @@
 
 @media screen and (min-width: 991px) and (max-width : 1023px){
 
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 45%; right: 30px; }
   .slider-arrow--left { top: 45%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -159,6 +163,7 @@
 
 @media screen and (min-width: 1024px) and (max-width : 1198px){
 
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 50%; right: 30px; }
   .slider-arrow--left { top: 50%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -168,6 +173,7 @@
 
 @media screen and (min-width: 1199px) and (max-width : 1379px){
 
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 50%; right: 30px; }
   .slider-arrow--left { top: 50%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
@@ -177,6 +183,7 @@
 
 @media screen and (min-width: 1378px) and (max-width : 1929px){
 
+  .slider {height: 100vh;}
   .slider-arrow--right { top: 50%; right: 30px; }
   .slider-arrow--left { top: 50%; left: 30px; }
   .slider-arrow { font-size: 1.8em; padding: 15px; }
