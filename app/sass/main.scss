@@ -36,15 +36,29 @@ p{font-weight: normal;}
 
 @media only screen and (min-width : 280px) and (max-width : 479px){
 
+    .headlines{
+        h2{margin-top: 1em; margin-bottom: 1em;}    
+        font-size: 2em;
+    }
 
 };
 
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
+    .headlines{
+        h2{margin-top: 1em; margin-bottom: 1em;}    
+        font-size: 2em;
+    }
+
 
 };
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
+
+    .headlines{
+        h2{margin-top: 1em; margin-bottom: 1em;}    
+        font-size: 2em;
+    }
 
 
 };
