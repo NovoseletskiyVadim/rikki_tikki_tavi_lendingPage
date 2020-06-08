@@ -30,7 +30,7 @@
     text-shadow: 0 -1px rgba(0,0,0,.1);
     background:rgb(241, 149, 11);
     -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;  
+    animation: pulsate 1.2s linear infinite; 
 }
 
 
@@ -66,13 +66,15 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    font-weight: bold;
+
 
     }
 
     .but:hover {
         background-color: rgba(245, 143, 10, 0.966);
-        font-weight: bold;
         border: 2px solid yellowgreen;
+
     }
 }
 
