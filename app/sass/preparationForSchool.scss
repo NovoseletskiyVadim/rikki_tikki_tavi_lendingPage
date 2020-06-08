@@ -14,8 +14,6 @@
     -webkit-animation: pulsate 1.2s linear infinite;
     animation: pulsate 1.2s linear infinite;
     margin-top: 0.5em;
-    // margin: 0;
-    // position: relative;
 }
 
 #banerMobile{
@@ -114,15 +112,11 @@
     border-radius: 5px;
     text-align: center;
     border: 2px solid rgba(96, 5, 243, 1);
-
+    font-weight: bold;
 
     }
 
-    .butBanerMobile:hover {
-        background-color: rgba(245, 143, 10, 0.966);
-        font-weight: bold;
-        border: 2px solid rgba(96, 5, 243, 1);
-    }
+    
 }
 
 
@@ -135,7 +129,7 @@
     }
     .BanerForMobile{
         img{
-            width: 80%;
+            width: 96%;
         }
     }
 
