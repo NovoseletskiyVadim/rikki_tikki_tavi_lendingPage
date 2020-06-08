@@ -1,0 +1,385 @@
+
+
+
+@-webkit-keyframes pulsate {
+50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+#baner{
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    background: blue;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+    margin-top: 0.5em;
+    // margin: 0;
+    // position: relative;
+}
+
+#banerMobile{
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    background: rgba(96, 5, 243, 0.911);;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+    margin-top: 0.5em;
+}
+
+#buttonDetailsEducation{
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    background:rgb(241, 149, 11);
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;  
+}
+
+
+.preparationForSchoolBlock{
+
+    height: 110px;
+    img{ width: 100%;  margin: 0; }
+    overflow: hidden;
+}
+
+.preparationForSchoolBlockContainer{
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .but{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgb(241, 149, 11);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+    }
+
+    .but:hover {
+        background-color: rgba(245, 143, 10, 0.966);
+        font-weight: bold;
+        border: 2px solid yellowgreen;
+    }
+}
+
+
+.BanerForMobile{
+
+    background: rgba(96, 5, 243, 1);
+    h2{
+        margin-bottom: 0.5em;
+    }
+}
+
+
+.preparationForSchoolMobileContainer{
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .butBanerMobile{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgb(241, 149, 11);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid rgba(96, 5, 243, 1);
+
+
+    }
+
+    .butBanerMobile:hover {
+        background-color: rgba(245, 143, 10, 0.966);
+        font-weight: bold;
+        border: 2px solid rgba(96, 5, 243, 1);
+    }
+}
+
+
+
+
+@media only screen and (min-width : 280px) and (max-width : 479px){
+                        
+    .mainBaner{
+        display: none;
+    }
+    .BanerForMobile{
+        img{
+            width: 80%;
+        }
+    }
+
+};
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+
+
+    .mainBaner{
+        display: none;
+    }
+
+    .BanerForMobile{
+        img{
+            width: 80%;
+        }
+    }
+};
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+
+   
+    .mainBaner{
+        display: none;
+    }
+};
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+   
+    .preparationForSchoolBlock{
+
+        height: 92px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 60%;
+            left: 60%;
+
+            font-size: 10px;
+            padding: 8px 20px;
+        } 
+        
+    }  
+
+    
+    
+   
+};
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .preparationForSchoolBlock{
+
+        height: 92px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 60%;
+            left: 60%;
+
+            font-size: 10px;
+            padding: 8px 20px;
+        } 
+        
+    }  
+    
+    
+  
+};
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    
+    .preparationForSchoolBlock{
+
+        height: 92px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 60%;
+            left: 60%;
+
+            font-size: 14px;
+            padding: 8px 20px;
+        } 
+        
+    }  
+    
+
+
+};
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+
+    .container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+  
+    .preparationForSchoolBlock{
+
+        height: 94px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 50%;
+            left: 60%;
+
+            
+        }   
+    }
+    
+  
+};
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .preparationForSchoolBlock{
+
+        height: 110px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 50%;
+            left: 60%;
+        }  
+    }     
+    
+    
+
+    
+};
+
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+    .preparationForSchoolBlock{
+
+        height: 125px;
+    }   
+    .preparationForSchoolBlockContainer{
+
+        .but{
+            top: 50%;
+            left: 60%;
+        }   
+    }
+};
+
+@media only screen and (min-width : 1920px) and (max-width : 2160px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+    .container .cols.col-2{width: 16.66666666666667%;}
+    .container .cols.col-3{width: 25%;}
+    .container .cols.col-4{width: 33.33333333333333%;}
+    .container .cols.col-5{width: 41.66666666666667%;}
+    .container .cols.col-6{width: 50%;}
+    .container .cols.col-7{width: 58.33333333333333%;}
+    .container .cols.col-8{width: 66.66666666666667%;}
+    .container .cols.col-9{width: 75%;}
+    .container .cols.col-10{width: 83.33333333333333%;}
+    .container .cols.col-11{width: 91.66666666666667%;}
+    .container .cols.col-12{width: 100%;}
+
+
+
+};

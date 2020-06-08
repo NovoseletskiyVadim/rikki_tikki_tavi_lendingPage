@@ -81,7 +81,7 @@ p{font-weight: normal;}
 
 };
 
-@media only screen and (min-width : 767px) and (max-width : 849px) {
+@media only screen and (min-width : 768px) and (max-width : 849px) {
 
 
     .container .cols.col-1{width: 8.333333333333333%;}
@@ -98,10 +98,16 @@ p{font-weight: normal;}
     .container .cols.col-12{width: 100%;}
     
     .simvolmongoose{
-        width: 20%;
+
+      display: none;
     }
 
     .nameForMoblile{
+        
+        display: none;
+    }
+
+    .BanerForMobile{
         display: none;
     }
 };
@@ -126,6 +132,10 @@ p{font-weight: normal;}
     }
 
     .nameForMoblile{
+        display: none;
+    }
+
+    .BanerForMobile{
         display: none;
     }
   
@@ -153,6 +163,10 @@ p{font-weight: normal;}
     .nameForMoblile{
         display: none;
     }
+
+    .BanerForMobile{
+        display: none;
+    }
 };
 
 @media only screen and (min-width : 1024px) and (max-width : 1199px){
@@ -175,6 +189,10 @@ p{font-weight: normal;}
     }
 
     .nameForMoblile{
+        display: none;
+    }
+
+    .BanerForMobile{
         display: none;
     }
   
@@ -203,6 +221,10 @@ p{font-weight: normal;}
     .nameForMoblile{
         display: none;
     }
+
+    .BanerForMobile{
+        display: none;
+    }
     
 };
 
@@ -229,6 +251,10 @@ p{font-weight: normal;}
     .nameForMoblile{
         display: none;
     }
+
+    .BanerForMobile{
+        display: none;
+    }
 };
 
 @media only screen and (min-width : 1920px) and (max-width : 2160px){
@@ -252,6 +278,10 @@ p{font-weight: normal;}
     }
 
     .nameForMoblile{
+        display: none;
+    }
+
+    .BanerForMobile{
         display: none;
     }
 };
