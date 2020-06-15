@@ -4106,6 +4106,232 @@ pre {
   .container .cols.col-12 {
     width: 100%; } }
 
+.preparationName h2 {
+  margin-top: 1em;
+  color: #5c5c5c;
+  margin-bottom: 1em;
+  font-size: 1.8em; }
+
+.preparationAbout h3 {
+  color: #5c5c5c;
+  font-size: 1.4em;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.preparationAbout .preparationPoint {
+  text-align: left;
+  padding-left: 2em;
+  font-size: 1.3em; }
+  .preparationAbout .preparationPoint li {
+    margin-top: 0.5em; }
+
+.preparationAbout p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: blue; }
+
+.aboutMathematics {
+  color: #5c5c5c; }
+  .aboutMathematics ul {
+    text-align: left; }
+    .aboutMathematics ul li {
+      margin-top: 0.5em;
+      font-size: 1.5em; }
+  .aboutMathematics img {
+    width: 90%;
+    border-radius: 75px; }
+
+.aboutLanguage {
+  font-size: 1.5em;
+  color: #5c5c5c; }
+  .aboutLanguage ul {
+    text-align: left; }
+    .aboutLanguage ul li {
+      margin-top: 0.5em;
+      margin-left: 2em; }
+  .aboutLanguage img {
+    width: 90%;
+    border-radius: 75px; }
+
+.aboutConfident {
+  font-size: 1.5em;
+  color: #5c5c5c; }
+  .aboutConfident ul {
+    text-align: left; }
+    .aboutConfident ul li {
+      margin-top: 0.5em;
+      margin-left: 2em; }
+  .aboutConfident img {
+    width: 90%;
+    border-radius: 75px; }
+
+.aboutOrganized {
+  font-size: 1.5em;
+  color: #5c5c5c; }
+  .aboutOrganized ul {
+    text-align: left; }
+    .aboutOrganized ul li {
+      margin-top: 0.5em;
+      margin-left: 2em; }
+  .aboutOrganized img {
+    width: 90%;
+    border-radius: 75px; }
+
+.aboutEnvironment {
+  font-size: 1.5em;
+  color: #5c5c5c; }
+  .aboutEnvironment ul {
+    text-align: left; }
+    .aboutEnvironment ul li {
+      margin-top: 0.5em;
+      margin-left: 2em; }
+  .aboutEnvironment img {
+    width: 90%;
+    border-radius: 75px; }
+
+.roadPreparation {
+  height: 3em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 2em;
+  position: relative; }
+  .roadPreparation p {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold; }
+
+.circle-preparation {
+  z-index: 1;
+  position: relative;
+  margin-top: 3.5em; }
+  .circle-preparation .span {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 50% 0;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    border-top: 1px solid;
+    border-bottom: 1px solid; }
+  .circle-preparation .text {
+    position: relative;
+    top: -.5em;
+    padding: 0em 0.65em;
+    font-size: 4em;
+    font-weight: bold; }
+
+.circle-left-preparation {
+  float: left; }
+
+.circle-right-preparation {
+  float: right; }
+
+.confident {
+  background-color: aquamarine;
+  border-top-color: blue;
+  border-bottom-color: blue; }
+
+.confident-text {
+  color: blue; }
+
+.road-confident {
+  background-color: aquamarine;
+  border-top-color: blue;
+  border-bottom-color: blue; }
+  .road-confident p {
+    color: blue; }
+
+.road-mathematics {
+  background-color: #acff2f;
+  border-top-color: forestgreen;
+  border-bottom-color: forestgreen; }
+
+.mathematics {
+  background-color: #acff2f;
+  border-top-color: green;
+  border-bottom-color: green; }
+
+.mathematics-text {
+  color: darkgreen; }
+
+.environment {
+  background-color: #ffea2f;
+  border-top-color: goldenrod;
+  border-bottom-color: goldenrod; }
+
+.environment-text {
+  color: goldenrod; }
+
+.road-environment {
+  background-color: #ffea2f;
+  border-top-color: goldenrod;
+  border-bottom-color: goldenrod; }
+  .road-environment p {
+    color: goldenrod; }
+
+.about-Language {
+  background-color: orangered;
+  border-top-color: darkred;
+  border-bottom-color: darkred; }
+
+.road-about-Language {
+  background-color: orangered;
+  border-top-color: darkred;
+  border-bottom-color: darkred; }
+  .road-about-Language p {
+    color: darkred; }
+
+.about-Language-text {
+  color: darkred; }
+
+.organized {
+  background-color: darkorchid;
+  border-top-color: indigo;
+  border-bottom-color: indigo; }
+
+.road-organized {
+  background-color: darkorchid;
+  border-top-color: indigo;
+  border-bottom-color: indigo; }
+  .road-organized p {
+    color: #3f006d; }
+
+.organized-text {
+  color: #3f006d; }
+
+.experiments {
+  background-color: #4f4ff5;
+  border-top-color: #000099;
+  border-bottom-color: #000099; }
+
+.road-experiments {
+  background-color: #4f4ff5;
+  border-top-color: #000099;
+  border-bottom-color: #000099; }
+  .road-experiments p {
+    color: #020279; }
+
+.experiments-text {
+  color: #020279; }
+
+.learningAbility {
+  background-color: #01a101;
+  border-top-color: #007400;
+  border-bottom-color: #007400; }
+
+.road-learningAbility {
+  background-color: #01a101;
+  border-top-color: #007400;
+  border-bottom-color: #007400; }
+  .road-learningAbility p {
+    color: #035003; }
+
+.learningAbility-text {
+  color: #035003; }
+
 .headlines {
   font-weight: bold;
   font-size: 2em; }
