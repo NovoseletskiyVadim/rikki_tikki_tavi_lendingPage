@@ -4139,6 +4139,7 @@ pre {
     text-align: left; }
     .aboutMathematics ul li {
       margin-top: 0.5em;
+      margin-left: 2em;
       font-size: 1.5em; }
   .aboutMathematics img {
     width: 90%;
